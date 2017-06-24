@@ -1,10 +1,12 @@
 <template>
   <div class="banner" @mouseover="stopAutoplay" @mouseout="autoPlay">
     <div class="list" style="left: 0;">
-      <a href="#"><img src="../../../assets/banner.jpg" alt="图片1" style="background-color: aqua"></a>
-      <a href="#"><img src="../../../assets/vue.png" alt="图片2" style="background-color: blueviolet"></a>
-      <a href="#"><img src="../../../assets/wechat.png" alt="图片3" style="background-color: cornflowerblue"></a>
-      <a href="#"><img src="../../../assets/reactnative.png" alt="图片4" style="background-color: darkcyan"></a>
+      <transition-group enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
+        <a href="#" :key="1"><img src="../../assets/banner.jpg" alt="图片1" style="background-color: aqua"></a>
+        <a href="#" :key="2"><img src="../../assets/vue.png" alt="图片2" style="background-color: blueviolet"></a>
+        <a href="#" :key="3"><img src="../../assets/wechat.png" alt="图片3" style="background-color: cornflowerblue"></a>
+        <a href="#" :key="4"><img src="../../assets/reactnative.png" alt="图片4" style="background-color: darkcyan"></a>
+      </transition-group>
     </div>
     <a href="javascript:;" class="prev btn" @click="prev">&lt;</a>
     <a href="javascript:;" class="next btn" @click="next1">&gt;</a>
