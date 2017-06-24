@@ -13,7 +13,7 @@
           <span>A模块:零基础入门</span>
           <a href="">
             <i class="pen-logo">
-              <img src="../../assets/introduceContainer1.gif" alt="">
+              <img src="../../../assets/introduceContainer1.gif" alt="">
             </i>
             <span>A模块:零基础入门</span>
           </a>
