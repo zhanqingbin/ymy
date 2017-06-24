@@ -7,10 +7,12 @@
       <!--<p class="title-desc">通过对JavaScript前端、Nodejs后端、HTML5 移动端、等原生等技术的学习，成为真正的JS全栈工程师</p>-->
       <ul class="company-active">
         <li>
-          <i class="pen-logo">
-            <img src="../../assets/introduceContainer1.gif" alt="">
-          </i>
-          <span>A模块:零基础入门</span>
+          <a href="">
+            <i class="pen-logo">
+              <img src="../../assets/introduceContainer1.gif" alt="">
+            </i>
+            <span>A模块:零基础入门</span>
+          </a>
         </li>
         <li>
           <i class="book-logo">
