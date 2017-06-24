@@ -9,7 +9,7 @@
         <div class="course course-line1">
           <ul>
             <li>
-              <img src="../../assets/new.png" alt="图片1">
+              <img src="../../../assets/new.png" alt="图片1">
               <div class="course-info">
                 <p>新手入门</p>
                 <p>3周课程</p>
@@ -19,7 +19,7 @@
               </div>
             </li>
             <li>
-              <img src="../../assets/less.png" alt="图片1">
+              <img src="../../../assets/less.png" alt="图片1">
               <div class="course-info">
                 <p>Less应用实战</p>
                 <p>实战课程</p>
@@ -29,7 +29,7 @@
               </div>
             </li>
             <li>
-              <img src="../../assets/B.jpg" alt="图片1">
+              <img src="../../../assets/B.jpg" alt="图片1">
               <div class="course-info">
                 <p>BootStrap实战</p>
                 <p>实战课程</p>
@@ -43,7 +43,7 @@
         <div class="course course-line2">
           <ul>
             <li>
-              <img src="../../assets/js.jpeg" alt="图片1">
+              <img src="../../../assets/js.jpeg" alt="图片1">
               <div class="course-info">
                 <p>原生JavaScript深入</p>
                 <p>8周课程</p>
@@ -53,7 +53,7 @@
               </div>
             </li>
             <li>
-              <img src="../../assets/node.png" alt="图片1">
+              <img src="../../../assets/node.png" alt="图片1">
               <div class="course-info">
                 <p>NodeJs开发深入</p>
                 <p>4周课程</p>
@@ -63,7 +63,7 @@
               </div>
             </li>
             <li>
-              <img src="../../assets/react.jpeg" alt="图片1">
+              <img src="../../../assets/react.jpeg" alt="图片1">
               <div class="course-info">
                 <p>React项目实战</p>
                 <p>1周课程</p>
@@ -77,7 +77,7 @@
         <div class="course course-line3">
           <ul>
             <li>
-              <img src="../../assets/vue.jpeg" alt="图片1">
+              <img src="../../../assets/vue.jpeg" alt="图片1">
               <div class="course-info">
                 <p>Vue项目实战</p>
                 <p>实战课程</p>
@@ -87,7 +87,7 @@
               </div>
             </li>
             <li>
-              <img src="../../assets/xcx.png" alt="图片1">
+              <img src="../../../assets/xcx.png" alt="图片1">
               <div class="course-info">
                 <p>小程序项目实战</p>
                 <p>实战课程</p>
@@ -97,7 +97,7 @@
               </div>
             </li>
             <li>
-              <img src="../../assets/angular.png" alt="图片1">
+              <img src="../../../assets/angular.png" alt="图片1">
               <div class="course-info">
                 <p>Angular项目实战</p>
                 <p>实战课程</p>

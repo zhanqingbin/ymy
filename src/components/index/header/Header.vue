@@ -2,7 +2,7 @@
   <div class="header">
     <div class="container">
       <div class="left">
-        <img src="../../assets/LOGO.png" alt="">
+        <img src="../../../assets/LOGO.png" alt="">
       </div>
       <div class="nav-right">
         <a class="no-border" href="/">首页</a>

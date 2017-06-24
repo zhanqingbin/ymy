@@ -18,7 +18,7 @@
     text-align: center;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-image: url(../../assets/mainBac2.jpg);
+    background-image: url(../../../assets/mainBac2.jpg);
     background-size: cover;
   }
   .container{

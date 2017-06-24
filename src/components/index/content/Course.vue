@@ -8,25 +8,25 @@
       <ul class="company-active">
         <li>
           <i class="pen-logo">
-            <img src="../../assets/introduceContainer1.gif" alt="">
+            <img src="../../../assets/introduceContainer1.gif" alt="">
           </i>
           <span>A模块:零基础入门</span>
         </li>
         <li>
           <i class="book-logo">
-            <img src="../../assets/introduceContainer2.gif" alt="">
+            <img src="../../../assets/introduceContainer2.gif" alt="">
           </i>
           <span>B模块:最深入的原生JS课程体系</span>
         </li>
         <li>
           <i class="share-logo">
-            <img src="../../assets/introduceContainer3.gif" alt="">
+            <img src="../../../assets/introduceContainer3.gif" alt="">
           </i>
           <span>C模块:增强Node.js与流行框架实战</span>
         </li>
         <li>
           <i class="print-logo">
-            <img src="../../assets/introduceContainer4.gif" alt="">
+            <img src="../../../assets/introduceContainer4.gif" alt="">
           </i>
           <span>D模块:全栈项目实战</span>
         </li>
