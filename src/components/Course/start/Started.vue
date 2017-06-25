@@ -1,11 +1,9 @@
 <template>
   <div class="container">
-    <router-view></router-view>
+    新手入门
   </div>
 </template>
 
 <style scoped>
-  .container{
-    margin-top: 71px;
-  }
+
 </style>

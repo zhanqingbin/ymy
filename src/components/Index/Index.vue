@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import vHeader from './header/Header.vue'
+  import vHeader from '../header/Header.vue'
   import vBanner from './content/Banner.vue';
   import vTeacher from './content/Teacher.vue';
   import vCourse from './content/Course.vue';

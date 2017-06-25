@@ -7,6 +7,15 @@ import BMoule from '@/components/CourseArrangement/B'
 import CMoule from '@/components/CourseArrangement/C'
 import DMoule from '@/components/CourseArrangement/D'
 import Course from '@/components/Course/Course'
+import Start from '@/components/Course/start/Started'
+import Less from '@/components/Course/less/Less'
+import Bootstrap from '@/components/Course/bootstrap/Bootstrap'
+import NodeJs from '@/components/Course/node/Node'
+import React from '@/components/Course/react/React'
+import Angular from '@/components/Course/angular/Angular'
+import Vuejs from '@/components/Course/vue/Vue'
+import Wx from '@/components/Course/wx/Wx'
+import Js from '@/components/Course/js/Js'
 import CourseBegin from '@/components/CourseBegin/CourseBegin'
 import JoinUs from '@/components/JoinUs/JoinUs'
 import Works from '@/components/Works/Works'
@@ -50,6 +59,53 @@ export default new Router({
       path:'/course',
       name:'学习课程',
       component:Course,
+      children:[
+        {
+          path:'start',
+          name:'新手入门',
+          component:Start
+        },
+        {
+          path:'less',
+          name:'less实战',
+          component:Less
+        },
+        {
+          path:'bootstrap',
+          name:'bootstrap实战',
+          component:Bootstrap
+        },
+        {
+          path:'js',
+          name:'原声js',
+          component:Js
+        },
+        {
+          path:'node',
+          name:'nodejs实战',
+          component:NodeJs
+        },
+        {
+          path:'react',
+          name:'react实战',
+          component:React
+        },
+        {
+          path:'angular',
+          name:'angular实战',
+          component:Angular
+        },
+        {
+          path:'wx',
+          name:'微信小程序实战',
+          component:Wx
+        },
+        {
+          path:'vue',
+          name:'vue实战',
+          component:Vuejs
+        },
+      ]
     },
     {
       path:'/coursebegin',
@@ -69,13 +125,8 @@ export default new Router({
   ],
   mode: 'history',
   scrollBehavior (to, from, savedPosition) {
-    // 如果你的連結是帶 # 這種
-    // to.hash 就會有值(值就是連結)
-    // 例如 #3
     if (to.hash) {
       return {
-        // 這個是透過 to.hash 的值來找到對應的元素
-        // 例如你按下 #3 的連結，就會變成 querySelector('#3')，自然會找到 id = 3 的元素
         selector: to.hash
       }
     }

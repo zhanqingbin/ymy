@@ -2,9 +2,9 @@
   <div class="banner" @mouseover="stopAutoplay" @mouseout="autoPlay">
     <div class="list" style="left: 0;">
         <a href="#" :key="1"><img src="../../../assets/banner.jpg" alt="图片1" style="background-color: aqua"></a>
-        <a href="#" :key="2"><img src="../../../assets/vue.png" alt="图片2" style="background-color: blueviolet"></a>
-        <a href="#" :key="3"><img src="../../../assets/wechat.png" alt="图片3" style="background-color: cornflowerblue"></a>
-        <a href="#" :key="4"><img src="../../../assets/reactnative.png" alt="图片4" style="background-color: darkcyan"></a>
+        <a href="#" :key="2"><img src="../../../assets/banner-02.jpg" alt="图片2" style="background-color: blueviolet"></a>
+        <a href="#" :key="3"><img src="../../../assets/banner-03.jpg" alt="图片3" style="background-color: cornflowerblue"></a>
+        <!--<a href="#" :key="4"><img src="../../../assets/vue.png" alt="图片4" style="background-color: darkcyan"></a>-->
     </div>
     <a href="javascript:;" class="prev btn" @click="prev">&lt;</a>
     <a href="javascript:;" class="next btn" @click="next1">&gt;</a>
@@ -12,7 +12,7 @@
       <li class="active" clickIndex="1"></li>
       <li clickIndex="2"></li>
       <li clickIndex="3"></li>
-      <li clickIndex="4"></li>
+      <!--<li clickIndex="4"></li>-->
     </ul>
   </div>
 </template>
@@ -29,14 +29,14 @@
       prev(){
         this.index--;
         if (this.index < 1) {
-          this.index = 4;
+          this.index = 3;
         }
         this.banner(100);
         this.changeDots();
       },
       next1(){
         this.index++;
-        if (this.index > 4) {
+        if (this.index > 3) {
           this.index = 1;
         }
         this.banner(-100);
@@ -46,12 +46,12 @@
         const list = document.querySelector('.list');
         let newLeft = parseInt(list.style.left) + offset;
         // 回到第一张
-        if (newLeft <= -400) {
+        if (newLeft <= -300) {
           newLeft = 0;
         }
         // 回到最后一张
         if (newLeft >= 100) {
-          newLeft = -300;
+          newLeft = -200;
         }
         list.style.left = newLeft + '%'
       },

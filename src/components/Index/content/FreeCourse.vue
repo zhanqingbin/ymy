@@ -13,9 +13,9 @@
               <div class="course-info">
                 <p>新手入门</p>
                 <p>3周课程</p>
-                <p class="mask">
+                <a class="mask" href="/course/start">
                   新手入门路径帮助对前端技术感兴趣的新手0基础入门。html5与css3实战让你迅速成长！
-                </p>
+                </a>
               </div>
             </li>
             <li>
@@ -23,9 +23,9 @@
               <div class="course-info">
                 <p>Less应用实战</p>
                 <p>实战课程</p>
-                <p class="mask">
+                <a class="mask" href="/course/less">
                   CSS预处理语言，使开发更加快速。
-                </p>
+                </a>
               </div>
             </li>
             <li>
@@ -33,9 +33,9 @@
               <div class="course-info">
                 <p>BootStrap实战</p>
                 <p>实战课程</p>
-                <p class="mask">
+                <a class="mask" href="/course/bootstrap">
                   学习使用前端最流行的前端UI框架Bootstrap，可以提升开发效率，短时间内迅速搭建网站。
-                </p>
+                </a>
               </div>
             </li>
           </ul>
@@ -47,9 +47,9 @@
               <div class="course-info">
                 <p>原生JavaScript深入</p>
                 <p>8周课程</p>
-                <p class="mask">
+                <a class="mask" href="/course/js">
                   打下扎实的基础，帮助你通过动手实践成长为合格的Web前端工程师。
-                </p>
+                </a>
               </div>
             </li>
             <li>
@@ -57,9 +57,9 @@
               <div class="course-info">
                 <p>NodeJs开发深入</p>
                 <p>4周课程</p>
-                <p class="mask">
+                <a class="mask" href="/course/nodejs">
                   NodeJS学习路径中将通过使用 NodeJS、Mongodb 实现博客、论坛、留言板、聊天室等应用，学习并实践 NodeJS编程基础和Web应用开发等技术。
-                </p>
+                </a>
               </div>
             </li>
             <li>
@@ -67,9 +67,9 @@
               <div class="course-info">
                 <p>React项目实战</p>
                 <p>1周课程</p>
-                <p class="mask">
+                <a class="mask" href="/course/react">
                   在JS的基础上学习使用前端流行框架React的使用，了解命令式编程与React diff算法的魅力。让你迅速达到企业级开发水平。
-                </p>
+                </a>
               </div>
             </li>
           </ul>
@@ -81,9 +81,9 @@
               <div class="course-info">
                 <p>Vue项目实战</p>
                 <p>实战课程</p>
-                <p class="mask">
+                <a class="mask" href="/course/vue">
                   深入学习前端流行框架Vue的使用，掌握渐进式框架的使用。让你迅速达到企业级开发水平。
-                </p>
+                </a>
               </div>
             </li>
             <li>
@@ -91,9 +91,9 @@
               <div class="course-info">
                 <p>小程序项目实战</p>
                 <p>实战课程</p>
-                <p class="mask">
+                <a class="mask" href="/course/wx">
                   紧跟前端潮流，掌握微信小程序的开发，快人一步。
-                </p>
+                </a>
               </div>
             </li>
             <li>
@@ -101,9 +101,9 @@
               <div class="course-info">
                 <p>Angular项目实战</p>
                 <p>实战课程</p>
-                <p class="mask">
+                <a class="mask" href="/course/angular">
                   Google开源的一款JavaScript MVC框架，通过实战练习让你快速掌握。
-                </p>
+                </a>
               </div>
             </li>
           </ul>
@@ -182,7 +182,7 @@
     color: #666;
   }
 
-  .course-info p.mask {
+  .course-info a.mask {
     display: flex;
     align-items: center;
     position: absolute;
@@ -192,12 +192,13 @@
     height: 100px;
     font-size: 12px;
     overflow: hidden;
+    text-decoration: none;
     text-overflow: ellipsis;
     vertical-align: middle;
     color: transparent;
     background: transparent;
   }
-  .course-info p.mask:hover{
+  .course-info a.mask:hover{
     color: white;
     background: hsla(0,0%,58%,.8);
     cursor: pointer;

@@ -2,16 +2,16 @@
   <div class="header">
     <div class="container">
       <div class="left">
-        <img src="../../../assets/LOGO.png" alt="">
+        <img src="../../assets/LOGO.png" alt="">
       </div>
       <div class="nav-right">
         <a class="no-border" href="/">首页</a>
-        <a class="no-border" href="#teacher">师资</a>
-        <a class="no-border" href="#course">课程安排</a>
-        <a class="no-border" href="#works">学生作品</a>
-        <a class="no-border" href="#freeCourse">学习课程</a>
+        <a class="no-border" href="javascript:;">师资</a>
+        <a class="no-border" href="">课程安排</a>
+        <a class="no-border" href="/works">学生作品</a>
+        <!--<a class="no-border" href="/course">学习课程</a>-->
         <a class="no-border">开课时间</a>
-        <a class="create-btn" href="#participate">加入圆梦源</a>
+        <a class="create-btn" href="/participate">加入圆梦源</a>
       </div>
     </div>
   </div>
@@ -27,7 +27,7 @@
     width: 100%;
     height: 70px;
     line-height: 70px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid rgba(210, 210, 210,0.8);
     z-index: 999;
   }
