@@ -81,7 +81,7 @@ export default new Router({
           component:Js
         },
         {
-          path:'node',
+          path:'nodejs',
           name:'nodejs实战',
           component:NodeJs
         },

@@ -28,7 +28,7 @@
     height: 70px;
     line-height: 70px;
     background: rgba(0, 0, 0, 0.6);
-    border: 1px solid rgba(210, 210, 210,0.8);
+    border: 1px solid rgba(0, 0, 0,0.5);
     z-index: 999;
   }
 
